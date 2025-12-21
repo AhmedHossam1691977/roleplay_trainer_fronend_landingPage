@@ -1,0 +1,107 @@
+<!-- Features Header (Full Width) -->
+<section class="py-5 bg-primary bg-opacity-10 text-center">
+  <div class="container-fluid">
+      <h2 class="fw-bold display-6 mb-3">
+      Powerful Features for Modern Training
+    </h2>
+    <p class="text-muted fs-5 lh-lg mx-auto" style="max-width: 800px;">
+      Everything you need to create, manage, and analyze effective roleplay training scenarios
+    </p>
+  </div>
+</section>
+<section class="features-header py-2 py-md-6 bg-light">
+  <div class="container text-center py-4">
+    <!-- Features Grid -->
+    <div class="row g-4 g-md-5 mt-4 justify-content-center">
+      @for (feature of features; track feature.title) {
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 border-0 shadow-sm p-4 p-md-5 text-center">
+          <div
+            class="bg-primary bg-opacity-10 rounded-circle p-3 d-inline-flex align-items-center justify-content-center mx-auto mb-4"
+          >
+            <i class="bi {{ feature.icon }} fs-3 text-primary"></i>
+          </div>
+          <h5 class="fw-semibold mb-3 fs-5">
+            {{ feature.title }}
+          </h5>
+          <p class="text-muted small lh-lg mb-0">
+            {{ feature.description }}
+          </p>
+        </div>
+      </div>
+      }
+    </div>
+  </div>
+</section>
+
+<!-- Customizable Training -->
+<section class="py-5 py-md-6 bg-white">
+  <div class="container py-4">
+    <div class="row align-items-center g-4 g-md-5">
+      <div class="col-lg-6">
+        <h3 class="fw-bold fs-2 mb-4">Customizable Training Scenarios</h3>
+        <p class="text-muted fs-5 lh-lg mb-4">Create scenarios tailored to your specific needs.</p>
+
+        <ul class="list-unstyled">
+          <li class="mb-3 d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Industry-specific scenario templates</span>
+          </li>
+          <li class="mb-3 d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Custom difficulty levels</span>
+          </li>
+          <li class="d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Multi-language support</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6 text-center">
+        <img
+          src="images/features.jpg"
+          alt="Dashboard"
+          class="img-fluid rounded-3 shadow-lg"
+          style="max-height: 450px; object-fit: cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Analytics -->
+<section class="py-5 py-md-6 bg-light">
+  <div class="container py-4">
+    <div class="row align-items-center g-4 g-md-5">
+      <div class="col-lg-6 text-center order-lg-1 order-2">
+        <button class="btn btn-primary btn-lg px-5 py-5 shadow fw-semibold">
+          <i class="bi bi-bar-chart-line me-2"></i>
+          Advanced Analytics Dashboard
+        </button>
+      </div>
+
+      <div class="col-lg-6 order-lg-2 order-1">
+        <h3 class="fw-bold fs-2 mb-4">Deep Performance Insights</h3>
+        <p class="text-muted fs-5 lh-lg mb-4">
+          Understand your strengths and areas for improvement with comprehensive analytics.
+        </p>
+
+        <ul class="list-unstyled">
+          <li class="mb-3 d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Detailed session transcripts</span>
+          </li>
+          <li class="mb-3 d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Performance trends and patterns</span>
+          </li>
+          <li class="d-flex align-items-start">
+            <i class="bi bi-check-circle-fill text-primary me-3 fs-5 mt-1"></i>
+            <span class="lh-lg">Personalized improvement suggestions</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
